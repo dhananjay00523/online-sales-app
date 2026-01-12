@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  application:
+    name: online-sales-app
+
+logging:
+  level:
+    com.company.onlinesalesapp: DEBUG
+    org.springframework.web: INFO
